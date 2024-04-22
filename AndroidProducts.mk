@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_HLTE556N.mk
+    $(LOCAL_DIR)/twrp_HLTE556N.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_HLTE556N-user \
-    omni_HLTE556N-userdebug \
-    omni_HLTE556N-eng
+    twrp_HLTE556N-user \
+    twrp_HLTE556N-userdebug \
+    twrp_HLTE556N-eng
