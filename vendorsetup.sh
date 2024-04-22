@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_HLTE556N-user
-add_lunch_combo omni_HLTE556N-userdebug
-add_lunch_combo omni_HLTE556N-eng
+add_lunch_combo twrp_HLTE556N-user
+add_lunch_combo twrp_HLTE556N-userdebug
+add_lunch_combo twrp_HLTE556N-eng
