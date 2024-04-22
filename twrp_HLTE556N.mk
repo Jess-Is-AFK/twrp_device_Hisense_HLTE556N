@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from HLTE556N device
 $(call inherit-product, device/hisense/HLTE556N/device.mk)
 
 PRODUCT_DEVICE := HLTE556N
-PRODUCT_NAME := omni_HLTE556N
+PRODUCT_NAME := twrp_HLTE556N
 PRODUCT_BRAND := Hisense
 PRODUCT_MODEL := HLTE556N
 PRODUCT_MANUFACTURER := hisense
